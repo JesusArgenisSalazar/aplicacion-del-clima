@@ -1,4 +1,4 @@
-
+﻿
 
 let city = "London";
 let contry_code = "gb";
@@ -32,7 +32,7 @@ btn_send.addEventListener("click", function(e){
 
 async function fetchData(){
      
-     const URI = `http://api.openweathermap.org/data/2.5/weather?q=${city},${contry_code}&appid=${api}&units=metric`;
+     const URI = `https://api.openweathermap.org/data/2.5/weather?q=${city},${contry_code}&appid=${api}&units=metric`;
       
       try{
 
